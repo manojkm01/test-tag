@@ -3,7 +3,7 @@ name: "Setup JFrog CLI Example"
 on:
   push:
     tags:
-      - '*' 
+      - v*
 
 jobs:
   build:
